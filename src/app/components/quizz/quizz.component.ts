@@ -74,5 +74,12 @@ export class QuizzComponent implements OnInit {
 
     return result
   }
+  resetQuiz() {
+  this.questionIndex = 0;
+  this.answers = [];
+  this.finished = false;
+  this.answerSelected = "";
+  this.questionSelected = this.questions[this.questionIndex];
+}
 
 }

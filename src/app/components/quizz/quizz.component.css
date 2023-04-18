@@ -38,6 +38,33 @@
   margin-bottom: 20px;
 }
 
+.teste2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.teste{
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #18ab29;
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+
+}
+
 .btn-option{
   background-color: transparent;
   border-radius: 8px;
