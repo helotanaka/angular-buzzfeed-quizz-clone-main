@@ -27,7 +27,13 @@
   </div>
 </div>
 
-<div *ngIf=finished class="teste2">
+<div *ngIf=finished class="btn-recomecar">
   <button 
-  (click)="resetQuiz()" class="teste">Recomeçar</button>
+  (click)="resetQuiz()" class="btn-r">Recomeçar</button>
 </div>
+
+<div *ngIf="funcionarbtn()" class="btn-voltar">
+  <button 
+  (click)="voltar()" class="btn-v">Voltar</button>
+</div>
+

@@ -82,4 +82,22 @@ export class QuizzComponent implements OnInit {
   this.questionSelected = this.questions[this.questionIndex];
 }
 
+teste: boolean = false
+funcionarbtn() {
+  if (this.finished === false && this.questionIndex > 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+
+voltar() {
+  this.questionIndex-- ;
+  this.answers.pop;
+  this.finished = false;
+  this.questionSelected = this.questions[this.questionIndex];
+}
+
+
 }
