@@ -1,55 +1,82 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Qual arconte de Genshin Impact você seria?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "O que você mais almeja ser?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Persistênte", "alias":"Z"},
+        {"id": 2, "name":"Calmo", "alias":"R"},
+        {"id": 3, "name":"Altruísta", "alias":"N"},
+        {"id": 4, "name":"Positivo", "alias":"V"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Se você pudesse escolher uma arma para lutar em um jogo, qual seria?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Arco", "alias":"N"},
+        {"id": 2, "name":"Catalisador", "alias":"V"},
+        {"id": 3, "name":"Espada", "alias":"R"},
+        {"id": 3, "name":"Lança", "alias":"Z"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "O que você gosta de fazer no tempo livre?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Escutar música", "alias":"V"},
+        {"id": 2, "name":"Jogar vídeo-games", "alias":"R"},
+        {"id": 3, "name":"Ler livros", "alias":"N"},
+        {"id": 4, "name":"Dormir", "alias":"Z"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Quais são suas metas de vida?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Obter conhecimento e sabedoria", "alias":"N"},
+        {"id": 2, "name":"Preservar minha cultura", "alias":"R"},
+        {"id": 3, "name":"Tornar o mundo mais justo", "alias":"Z"},
+        {"id": 4, "name":"Proteger os necessitados", "alias":"V"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Qual jogo você prefere jogar?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"The Last of Us", "alias":"R"},
+        {"id": 2, "name":"Ace Attorney", "alias":"Z"},
+        {"id": 3, "name":"Osu!", "alias":"V"},
+        {"id": 4, "name":"Animal Crossing", "alias":"N"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "Qual é a sua pior característica?",
+      "options":[
+        {"id": 1, "name":"Deshonestidade", "alias":"Z"},
+        {"id": 2, "name":"Negligência", "alias":"R"},
+        {"id": 3, "name":"Teimosia", "alias":"V"},
+        {"id": 4, "name":"Desmotivação", "alias":"N"}
+      ]
+    },
+    {
+      "id":7,
+      "question": "Qual prato você comeria?",
+      "options":[
+        {"id": 1, "name":"Doce de Mel com Tâmaras", "alias":"N"},
+        {"id": 2, "name":"Macarrão Udon", "alias":"R"},
+        {"id": 3, "name":"Ensopado de legumes", "alias":"V"},
+        {"id": 4, "name":"Sopa de Bambu", "alias":"Z"}
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "V": "Venti!",
+    "Z": "Zhongli!",
+    "R": "Raiden Shogun!",
+    "N": "Nahida!"
   }
+  
 }
