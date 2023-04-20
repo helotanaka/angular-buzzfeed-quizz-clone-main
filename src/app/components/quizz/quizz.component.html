@@ -23,8 +23,13 @@
 
   
   <div *ngIf=finished class="quizz_results">
-    <h1>O Seu resultado é:</h1>
-    <p>{{answerSelected}}</p>
+    <h1>O Seu resultado é: {{answerSelected}}</h1>
+    <div class="ajustes">
+      <p>{{description()}}</p>
+    <img src="{{image()}}" alt="">
+    </div>
+    
+    
   </div>
 </div>
 

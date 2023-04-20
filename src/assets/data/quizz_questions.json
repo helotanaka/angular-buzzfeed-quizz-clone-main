@@ -13,7 +13,7 @@
     },
     {
       "id":2,
-      "question": "Se você pudesse escolher uma arma para lutar em um jogo, qual seria?",
+      "question": "Se você pudesse escolher uma arma para lutar, qual seria?",
       "options":[
         {"id": 1, "name":"Arco", "alias":"N"},
         {"id": 2, "name":"Catalisador", "alias":"V"},

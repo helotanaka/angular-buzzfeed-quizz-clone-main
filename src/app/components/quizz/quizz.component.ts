@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import quizz_questions from "../../../assets/data/quizz_questions.json"
 
+
 @Component({
   selector: 'app-quizz',
   templateUrl: './quizz.component.html',
@@ -15,12 +16,15 @@ export class QuizzComponent implements OnInit {
   questionSelected:any
 
   answers:string[] = []
-  answerSelected:string =""
+  answerSelected:string | { name: string; image: string; description: string; } =""
 
   questionIndex:number =0
   questionMaxIndex:number=0
 
   finished:boolean = false
+
+  texto:string =""
+
 
   constructor() { }
 
@@ -97,4 +101,33 @@ voltar() {
   this.finished = false;
   this.questionSelected = this.questions[this.questionIndex];
 }
+
+description() {
+  if (this.answerSelected === "Venti!") {
+    return "Você é uma pessoa descontraída, alegre e que sempre busca aproveitar a vida ao máximo. Assim como Venti, você tem um espírito livre e gosta de explorar o mundo ao seu redor.";
+  } else if (this.answerSelected === "Zhongli!") {
+    return "Você é uma pessoa sábia, elegante e reservada, que prefere observar e analisar as coisas antes de agir. Assim como Zhongli, você tem uma personalidade serena e equilibrada, e gosta de apreciar as coisas belas da vida.";
+  } else if (this.answerSelected === "Raiden Shogun!") {
+    return "Você é uma pessoa determinada, ambiciosa e que sabe o que quer. Assim como Raiden Shogun, você tem uma personalidade forte e dominante, e gosta de liderar e controlar as situações ao seu redor.";
+  } else if (this.answerSelected === "Nahida!") {
+    return "Você é uma pessoa gentil, empática e preocupada com os outros. Assim como Nahida, você tem um coração bondoso e generoso, e gosta de ajudar as pessoas ao seu redor sempre que possível.";
+  } else {
+    return ""
+  }
+}
+
+image() {
+  if (this.answerSelected === "Venti!") {
+    return "assets/imgs/Venti.jpg";
+  } else if (this.answerSelected === "Zhongli!") {
+    return "assets/imgs/Zhongli.jpg";
+  } else if (this.answerSelected === "Raiden Shogun!") {
+    return "assets/imgs/RaidenShogun.jpg";
+  } else if (this.answerSelected === "Nahida!") {
+    return "assets/imgs/Nahida.jpg";
+  } else {
+    return ""
+  }
+}
+
 }
